@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/studio-classic-przymykowes",
+      "handler": "studio-classic-przymykowe.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/studio-classic-przymykowes/count",
+      "handler": "studio-classic-przymykowe.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/studio-classic-przymykowes/:id",
+      "handler": "studio-classic-przymykowe.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/studio-classic-przymykowes",
+      "handler": "studio-classic-przymykowe.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/studio-classic-przymykowes/:id",
+      "handler": "studio-classic-przymykowe.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/studio-classic-przymykowes/:id",
+      "handler": "studio-classic-przymykowe.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

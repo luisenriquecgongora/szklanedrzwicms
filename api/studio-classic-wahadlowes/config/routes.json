@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/studio-classic-wahadlowes",
+      "handler": "studio-classic-wahadlowes.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/studio-classic-wahadlowes/count",
+      "handler": "studio-classic-wahadlowes.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/studio-classic-wahadlowes/:id",
+      "handler": "studio-classic-wahadlowes.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/studio-classic-wahadlowes",
+      "handler": "studio-classic-wahadlowes.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/studio-classic-wahadlowes/:id",
+      "handler": "studio-classic-wahadlowes.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/studio-classic-wahadlowes/:id",
+      "handler": "studio-classic-wahadlowes.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

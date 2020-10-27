@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/kitchen-images",
+      "handler": "kitchen-images.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kitchen-images/count",
+      "handler": "kitchen-images.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kitchen-images/:id",
+      "handler": "kitchen-images.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/kitchen-images",
+      "handler": "kitchen-images.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/kitchen-images/:id",
+      "handler": "kitchen-images.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/kitchen-images/:id",
+      "handler": "kitchen-images.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

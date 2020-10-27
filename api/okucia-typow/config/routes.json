@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/okucia-typows",
+      "handler": "okucia-typow.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/okucia-typows/count",
+      "handler": "okucia-typow.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/okucia-typows/:id",
+      "handler": "okucia-typow.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/okucia-typows",
+      "handler": "okucia-typow.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/okucia-typows/:id",
+      "handler": "okucia-typow.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/okucia-typows/:id",
+      "handler": "okucia-typow.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

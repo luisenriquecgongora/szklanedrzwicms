@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/stained-patterns",
+      "handler": "stained-patterns.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/stained-patterns/count",
+      "handler": "stained-patterns.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/stained-patterns/:id",
+      "handler": "stained-patterns.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/stained-patterns",
+      "handler": "stained-patterns.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/stained-patterns/:id",
+      "handler": "stained-patterns.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/stained-patterns/:id",
+      "handler": "stained-patterns.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

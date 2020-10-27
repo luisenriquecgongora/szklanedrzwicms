@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/studio-rondo-przymykowes",
+      "handler": "studio-rondo-przymykowe.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/studio-rondo-przymykowes/count",
+      "handler": "studio-rondo-przymykowe.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/studio-rondo-przymykowes/:id",
+      "handler": "studio-rondo-przymykowe.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/studio-rondo-przymykowes",
+      "handler": "studio-rondo-przymykowe.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/studio-rondo-przymykowes/:id",
+      "handler": "studio-rondo-przymykowe.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/studio-rondo-przymykowes/:id",
+      "handler": "studio-rondo-przymykowe.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

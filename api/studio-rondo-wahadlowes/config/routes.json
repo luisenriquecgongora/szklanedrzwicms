@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/studio-rondo-wahadlowes",
+      "handler": "studio-rondo-wahadlowes.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/studio-rondo-wahadlowes/count",
+      "handler": "studio-rondo-wahadlowes.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/studio-rondo-wahadlowes/:id",
+      "handler": "studio-rondo-wahadlowes.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/studio-rondo-wahadlowes",
+      "handler": "studio-rondo-wahadlowes.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/studio-rondo-wahadlowes/:id",
+      "handler": "studio-rondo-wahadlowes.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/studio-rondo-wahadlowes/:id",
+      "handler": "studio-rondo-wahadlowes.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

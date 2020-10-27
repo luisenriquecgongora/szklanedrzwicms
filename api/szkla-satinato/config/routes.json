@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/szkla-satinatoes",
+      "handler": "szkla-satinato.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/szkla-satinatoes/count",
+      "handler": "szkla-satinato.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/szkla-satinatoes/:id",
+      "handler": "szkla-satinato.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/szkla-satinatoes",
+      "handler": "szkla-satinato.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/szkla-satinatoes/:id",
+      "handler": "szkla-satinato.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/szkla-satinatoes/:id",
+      "handler": "szkla-satinato.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

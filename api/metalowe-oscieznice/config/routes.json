@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/metalowe-oscieznices",
+      "handler": "metalowe-oscieznice.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/metalowe-oscieznices/count",
+      "handler": "metalowe-oscieznice.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/metalowe-oscieznices/:id",
+      "handler": "metalowe-oscieznice.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/metalowe-oscieznices",
+      "handler": "metalowe-oscieznice.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/metalowe-oscieznices/:id",
+      "handler": "metalowe-oscieznice.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/metalowe-oscieznices/:id",
+      "handler": "metalowe-oscieznice.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

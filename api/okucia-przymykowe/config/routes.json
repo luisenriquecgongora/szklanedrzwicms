@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/okucia-przymykowes",
+      "handler": "okucia-przymykowe.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/okucia-przymykowes/count",
+      "handler": "okucia-przymykowe.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/okucia-przymykowes/:id",
+      "handler": "okucia-przymykowe.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/okucia-przymykowes",
+      "handler": "okucia-przymykowe.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/okucia-przymykowes/:id",
+      "handler": "okucia-przymykowe.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/okucia-przymykowes/:id",
+      "handler": "okucia-przymykowe.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

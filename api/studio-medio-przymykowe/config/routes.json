@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/studio-medio-przymykowes",
+      "handler": "studio-medio-przymykowe.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/studio-medio-przymykowes/count",
+      "handler": "studio-medio-przymykowe.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/studio-medio-przymykowes/:id",
+      "handler": "studio-medio-przymykowe.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/studio-medio-przymykowes",
+      "handler": "studio-medio-przymykowe.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/studio-medio-przymykowes/:id",
+      "handler": "studio-medio-przymykowe.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/studio-medio-przymykowes/:id",
+      "handler": "studio-medio-przymykowe.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

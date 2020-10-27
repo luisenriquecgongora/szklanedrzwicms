@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/okucia-przesuwnes",
+      "handler": "okucia-przesuwne.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/okucia-przesuwnes/count",
+      "handler": "okucia-przesuwne.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/okucia-przesuwnes/:id",
+      "handler": "okucia-przesuwne.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/okucia-przesuwnes",
+      "handler": "okucia-przesuwne.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/okucia-przesuwnes/:id",
+      "handler": "okucia-przesuwne.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/okucia-przesuwnes/:id",
+      "handler": "okucia-przesuwne.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/arcos-office-wahadlowes",
+      "handler": "arcos-office-wahadlowes.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/arcos-office-wahadlowes/count",
+      "handler": "arcos-office-wahadlowes.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/arcos-office-wahadlowes/:id",
+      "handler": "arcos-office-wahadlowes.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/arcos-office-wahadlowes",
+      "handler": "arcos-office-wahadlowes.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/arcos-office-wahadlowes/:id",
+      "handler": "arcos-office-wahadlowes.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/arcos-office-wahadlowes/:id",
+      "handler": "arcos-office-wahadlowes.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

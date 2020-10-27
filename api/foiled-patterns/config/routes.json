@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/foiled-patterns",
+      "handler": "foiled-patterns.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/foiled-patterns/count",
+      "handler": "foiled-patterns.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/foiled-patterns/:id",
+      "handler": "foiled-patterns.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/foiled-patterns",
+      "handler": "foiled-patterns.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/foiled-patterns/:id",
+      "handler": "foiled-patterns.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/foiled-patterns/:id",
+      "handler": "foiled-patterns.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

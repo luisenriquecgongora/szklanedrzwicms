@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/wahadlowe-drzwis",
+      "handler": "wahadlowe-drzwi.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/wahadlowe-drzwis/count",
+      "handler": "wahadlowe-drzwi.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/wahadlowe-drzwis/:id",
+      "handler": "wahadlowe-drzwi.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/wahadlowe-drzwis",
+      "handler": "wahadlowe-drzwi.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/wahadlowe-drzwis/:id",
+      "handler": "wahadlowe-drzwi.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/wahadlowe-drzwis/:id",
+      "handler": "wahadlowe-drzwi.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

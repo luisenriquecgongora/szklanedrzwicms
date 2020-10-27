@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "studio_rondo_przymykowes",
+  "info": {
+    "name": "StudioRondoPrzymykowe"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

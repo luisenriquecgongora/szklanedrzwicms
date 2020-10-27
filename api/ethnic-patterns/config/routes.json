@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ethnic-patterns",
+      "handler": "ethnic-patterns.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ethnic-patterns/count",
+      "handler": "ethnic-patterns.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ethnic-patterns/:id",
+      "handler": "ethnic-patterns.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ethnic-patterns",
+      "handler": "ethnic-patterns.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ethnic-patterns/:id",
+      "handler": "ethnic-patterns.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ethnic-patterns/:id",
+      "handler": "ethnic-patterns.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

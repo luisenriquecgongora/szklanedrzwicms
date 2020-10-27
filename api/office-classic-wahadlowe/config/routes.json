@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/office-classic-wahadlowes",
+      "handler": "office-classic-wahadlowe.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/office-classic-wahadlowes/count",
+      "handler": "office-classic-wahadlowe.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/office-classic-wahadlowes/:id",
+      "handler": "office-classic-wahadlowe.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/office-classic-wahadlowes",
+      "handler": "office-classic-wahadlowe.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/office-classic-wahadlowes/:id",
+      "handler": "office-classic-wahadlowe.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/office-classic-wahadlowes/:id",
+      "handler": "office-classic-wahadlowe.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

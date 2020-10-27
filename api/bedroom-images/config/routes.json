@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/bedroom-images",
+      "handler": "bedroom-images.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bedroom-images/count",
+      "handler": "bedroom-images.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bedroom-images/:id",
+      "handler": "bedroom-images.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/bedroom-images",
+      "handler": "bedroom-images.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/bedroom-images/:id",
+      "handler": "bedroom-images.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/bedroom-images/:id",
+      "handler": "bedroom-images.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

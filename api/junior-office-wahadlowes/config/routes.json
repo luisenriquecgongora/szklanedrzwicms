@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/junior-office-wahadlowes",
+      "handler": "junior-office-wahadlowes.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/junior-office-wahadlowes/count",
+      "handler": "junior-office-wahadlowes.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/junior-office-wahadlowes/:id",
+      "handler": "junior-office-wahadlowes.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/junior-office-wahadlowes",
+      "handler": "junior-office-wahadlowes.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/junior-office-wahadlowes/:id",
+      "handler": "junior-office-wahadlowes.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/junior-office-wahadlowes/:id",
+      "handler": "junior-office-wahadlowes.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

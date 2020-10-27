@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/studio-classic-przesuwnes",
+      "handler": "studio-classic-przesuwne.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/studio-classic-przesuwnes/count",
+      "handler": "studio-classic-przesuwne.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/studio-classic-przesuwnes/:id",
+      "handler": "studio-classic-przesuwne.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/studio-classic-przesuwnes",
+      "handler": "studio-classic-przesuwne.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/studio-classic-przesuwnes/:id",
+      "handler": "studio-classic-przesuwne.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/studio-classic-przesuwnes/:id",
+      "handler": "studio-classic-przesuwne.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

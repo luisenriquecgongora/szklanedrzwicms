@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/studio-arcos-przymykowes",
+      "handler": "studio-arcos-przymykowe.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/studio-arcos-przymykowes/count",
+      "handler": "studio-arcos-przymykowe.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/studio-arcos-przymykowes/:id",
+      "handler": "studio-arcos-przymykowe.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/studio-arcos-przymykowes",
+      "handler": "studio-arcos-przymykowe.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/studio-arcos-przymykowes/:id",
+      "handler": "studio-arcos-przymykowe.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/studio-arcos-przymykowes/:id",
+      "handler": "studio-arcos-przymykowe.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

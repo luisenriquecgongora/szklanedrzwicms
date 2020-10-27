@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/office-classic-przesuwnes",
+      "handler": "office-classic-przesuwne.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/office-classic-przesuwnes/count",
+      "handler": "office-classic-przesuwne.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/office-classic-przesuwnes/:id",
+      "handler": "office-classic-przesuwne.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/office-classic-przesuwnes",
+      "handler": "office-classic-przesuwne.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/office-classic-przesuwnes/:id",
+      "handler": "office-classic-przesuwne.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/office-classic-przesuwnes/:id",
+      "handler": "office-classic-przesuwne.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

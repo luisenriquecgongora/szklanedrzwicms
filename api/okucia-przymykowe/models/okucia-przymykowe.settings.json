@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "okucia_przymykowes",
+  "info": {
+    "name": "OkuciaPrzymykowe"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "galleryurl": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    },
+    "titleshort": {
+      "type": "string"
+    }
+  }
+}

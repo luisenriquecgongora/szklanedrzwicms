@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/studio-arcos-przesuwnes",
+      "handler": "studio-arcos-przesuwne.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/studio-arcos-przesuwnes/count",
+      "handler": "studio-arcos-przesuwne.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/studio-arcos-przesuwnes/:id",
+      "handler": "studio-arcos-przesuwne.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/studio-arcos-przesuwnes",
+      "handler": "studio-arcos-przesuwne.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/studio-arcos-przesuwnes/:id",
+      "handler": "studio-arcos-przesuwne.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/studio-arcos-przesuwnes/:id",
+      "handler": "studio-arcos-przesuwne.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

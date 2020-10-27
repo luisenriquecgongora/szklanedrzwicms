@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "okucia_przesuwnes",
+  "info": {
+    "name": "OkuciaPrzesuwne"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "galleryurl": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    },
+    "titleshort": {
+      "type": "string"
+    }
+  }
+}

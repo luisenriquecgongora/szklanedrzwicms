@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/geometric-patterns",
+      "handler": "geometric-patterns.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/geometric-patterns/count",
+      "handler": "geometric-patterns.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/geometric-patterns/:id",
+      "handler": "geometric-patterns.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/geometric-patterns",
+      "handler": "geometric-patterns.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/geometric-patterns/:id",
+      "handler": "geometric-patterns.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/geometric-patterns/:id",
+      "handler": "geometric-patterns.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "typy_oscieznices",
+  "info": {
+    "name": "TypyOscieznice"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "galleryurl": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "titleshort": {
+      "type": "string"
+    }
+  }
+}

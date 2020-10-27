@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/szkla-lodowes",
+      "handler": "szkla-lodowe.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/szkla-lodowes/count",
+      "handler": "szkla-lodowe.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/szkla-lodowes/:id",
+      "handler": "szkla-lodowe.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/szkla-lodowes",
+      "handler": "szkla-lodowe.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/szkla-lodowes/:id",
+      "handler": "szkla-lodowe.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/szkla-lodowes/:id",
+      "handler": "szkla-lodowe.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

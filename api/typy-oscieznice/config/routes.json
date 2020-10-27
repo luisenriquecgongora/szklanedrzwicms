@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/typy-oscieznices",
+      "handler": "typy-oscieznice.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/typy-oscieznices/count",
+      "handler": "typy-oscieznice.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/typy-oscieznices/:id",
+      "handler": "typy-oscieznice.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/typy-oscieznices",
+      "handler": "typy-oscieznice.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/typy-oscieznices/:id",
+      "handler": "typy-oscieznice.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/typy-oscieznices/:id",
+      "handler": "typy-oscieznice.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

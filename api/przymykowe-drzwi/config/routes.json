@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/przymykowe-drzwis",
+      "handler": "przymykowe-drzwi.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/przymykowe-drzwis/count",
+      "handler": "przymykowe-drzwi.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/przymykowe-drzwis/:id",
+      "handler": "przymykowe-drzwi.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/przymykowe-drzwis",
+      "handler": "przymykowe-drzwi.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/przymykowe-drzwis/:id",
+      "handler": "przymykowe-drzwi.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/przymykowe-drzwis/:id",
+      "handler": "przymykowe-drzwi.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

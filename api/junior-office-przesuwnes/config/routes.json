@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/junior-office-przesuwnes",
+      "handler": "junior-office-przesuwnes.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/junior-office-przesuwnes/count",
+      "handler": "junior-office-przesuwnes.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/junior-office-przesuwnes/:id",
+      "handler": "junior-office-przesuwnes.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/junior-office-przesuwnes",
+      "handler": "junior-office-przesuwnes.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/junior-office-przesuwnes/:id",
+      "handler": "junior-office-przesuwnes.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/junior-office-przesuwnes/:id",
+      "handler": "junior-office-przesuwnes.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

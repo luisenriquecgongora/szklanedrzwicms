@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "arcos_office_przymykowes",
+  "info": {
+    "name": "ArcosOfficePrzymykowe"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

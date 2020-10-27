@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/hotel-images",
+      "handler": "hotel-images.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hotel-images/count",
+      "handler": "hotel-images.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hotel-images/:id",
+      "handler": "hotel-images.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/hotel-images",
+      "handler": "hotel-images.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/hotel-images/:id",
+      "handler": "hotel-images.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/hotel-images/:id",
+      "handler": "hotel-images.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

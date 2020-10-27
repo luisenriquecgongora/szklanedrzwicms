@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/oganic-patterns",
+      "handler": "oganic-patterns.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/oganic-patterns/count",
+      "handler": "oganic-patterns.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/oganic-patterns/:id",
+      "handler": "oganic-patterns.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/oganic-patterns",
+      "handler": "oganic-patterns.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/oganic-patterns/:id",
+      "handler": "oganic-patterns.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/oganic-patterns/:id",
+      "handler": "oganic-patterns.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

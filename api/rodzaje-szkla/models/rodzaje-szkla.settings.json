@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rodzaje_szklas",
+  "info": {
+    "name": "RodzajeSzkla"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "galleryurl": {
+      "type": "string"
+    }
+  }
+}

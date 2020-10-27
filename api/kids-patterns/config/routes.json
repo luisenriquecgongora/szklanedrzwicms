@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/kids-patterns",
+      "handler": "kids-patterns.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kids-patterns/count",
+      "handler": "kids-patterns.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kids-patterns/:id",
+      "handler": "kids-patterns.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/kids-patterns",
+      "handler": "kids-patterns.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/kids-patterns/:id",
+      "handler": "kids-patterns.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/kids-patterns/:id",
+      "handler": "kids-patterns.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

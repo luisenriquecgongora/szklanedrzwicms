@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/salonimages",
+      "handler": "salonimages.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/salonimages/count",
+      "handler": "salonimages.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/salonimages/:id",
+      "handler": "salonimages.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/salonimages",
+      "handler": "salonimages.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/salonimages/:id",
+      "handler": "salonimages.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/salonimages/:id",
+      "handler": "salonimages.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

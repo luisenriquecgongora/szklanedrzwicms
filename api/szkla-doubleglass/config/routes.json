@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/szkla-doubleglasses",
+      "handler": "szkla-doubleglass.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/szkla-doubleglasses/count",
+      "handler": "szkla-doubleglass.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/szkla-doubleglasses/:id",
+      "handler": "szkla-doubleglass.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/szkla-doubleglasses",
+      "handler": "szkla-doubleglass.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/szkla-doubleglasses/:id",
+      "handler": "szkla-doubleglass.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/szkla-doubleglasses/:id",
+      "handler": "szkla-doubleglass.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pattern-types",
+      "handler": "pattern-type.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pattern-types/count",
+      "handler": "pattern-type.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pattern-types/:id",
+      "handler": "pattern-type.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pattern-types",
+      "handler": "pattern-type.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pattern-types/:id",
+      "handler": "pattern-type.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pattern-types/:id",
+      "handler": "pattern-type.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

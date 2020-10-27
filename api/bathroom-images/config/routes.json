@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/bathroom-images",
+      "handler": "bathroom-images.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bathroom-images/count",
+      "handler": "bathroom-images.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bathroom-images/:id",
+      "handler": "bathroom-images.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/bathroom-images",
+      "handler": "bathroom-images.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/bathroom-images/:id",
+      "handler": "bathroom-images.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/bathroom-images/:id",
+      "handler": "bathroom-images.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

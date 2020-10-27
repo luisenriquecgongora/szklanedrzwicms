@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/studio-arcos-wahadlowes",
+      "handler": "studio-arcos-wahadlowes.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/studio-arcos-wahadlowes/count",
+      "handler": "studio-arcos-wahadlowes.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/studio-arcos-wahadlowes/:id",
+      "handler": "studio-arcos-wahadlowes.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/studio-arcos-wahadlowes",
+      "handler": "studio-arcos-wahadlowes.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/studio-arcos-wahadlowes/:id",
+      "handler": "studio-arcos-wahadlowes.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/studio-arcos-wahadlowes/:id",
+      "handler": "studio-arcos-wahadlowes.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

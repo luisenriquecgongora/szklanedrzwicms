@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/okucia-wahadlowes",
+      "handler": "okucia-wahadlowe.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/okucia-wahadlowes/count",
+      "handler": "okucia-wahadlowe.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/okucia-wahadlowes/:id",
+      "handler": "okucia-wahadlowe.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/okucia-wahadlowes",
+      "handler": "okucia-wahadlowe.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/okucia-wahadlowes/:id",
+      "handler": "okucia-wahadlowe.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/okucia-wahadlowes/:id",
+      "handler": "okucia-wahadlowe.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

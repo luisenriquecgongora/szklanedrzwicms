@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/przesuwne-drzwis",
+      "handler": "przesuwne-drzwi.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/przesuwne-drzwis/count",
+      "handler": "przesuwne-drzwi.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/przesuwne-drzwis/:id",
+      "handler": "przesuwne-drzwi.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/przesuwne-drzwis",
+      "handler": "przesuwne-drzwi.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/przesuwne-drzwis/:id",
+      "handler": "przesuwne-drzwi.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/przesuwne-drzwis/:id",
+      "handler": "przesuwne-drzwi.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

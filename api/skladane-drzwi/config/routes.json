@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/skladane-drzwis",
+      "handler": "skladane-drzwi.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/skladane-drzwis/count",
+      "handler": "skladane-drzwi.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/skladane-drzwis/:id",
+      "handler": "skladane-drzwi.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/skladane-drzwis",
+      "handler": "skladane-drzwi.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/skladane-drzwis/:id",
+      "handler": "skladane-drzwi.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/skladane-drzwis/:id",
+      "handler": "skladane-drzwi.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pattern_types",
+  "info": {
+    "name": "PatternType"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "name": {
+      "type": "string"
+    },
+    "galleryurl": {
+      "type": "string"
+    }
+  }
+}

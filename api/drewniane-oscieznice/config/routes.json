@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/drewniane-oscieznices",
+      "handler": "drewniane-oscieznice.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/drewniane-oscieznices/count",
+      "handler": "drewniane-oscieznice.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/drewniane-oscieznices/:id",
+      "handler": "drewniane-oscieznice.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/drewniane-oscieznices",
+      "handler": "drewniane-oscieznice.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/drewniane-oscieznices/:id",
+      "handler": "drewniane-oscieznice.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/drewniane-oscieznices/:id",
+      "handler": "drewniane-oscieznice.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

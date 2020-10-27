@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cosmic-patterns",
+      "handler": "cosmic-patterns.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cosmic-patterns/count",
+      "handler": "cosmic-patterns.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cosmic-patterns/:id",
+      "handler": "cosmic-patterns.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/cosmic-patterns",
+      "handler": "cosmic-patterns.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cosmic-patterns/:id",
+      "handler": "cosmic-patterns.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cosmic-patterns/:id",
+      "handler": "cosmic-patterns.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

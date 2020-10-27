@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/szkla-przerzoczystes",
+      "handler": "szkla-przerzoczyste.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/szkla-przerzoczystes/count",
+      "handler": "szkla-przerzoczyste.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/szkla-przerzoczystes/:id",
+      "handler": "szkla-przerzoczyste.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/szkla-przerzoczystes",
+      "handler": "szkla-przerzoczyste.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/szkla-przerzoczystes/:id",
+      "handler": "szkla-przerzoczyste.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/szkla-przerzoczystes/:id",
+      "handler": "szkla-przerzoczyste.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/office-classic-przymykowes",
+      "handler": "office-classic-przymykowe.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/office-classic-przymykowes/count",
+      "handler": "office-classic-przymykowe.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/office-classic-przymykowes/:id",
+      "handler": "office-classic-przymykowe.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/office-classic-przymykowes",
+      "handler": "office-classic-przymykowe.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/office-classic-przymykowes/:id",
+      "handler": "office-classic-przymykowe.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/office-classic-przymykowes/:id",
+      "handler": "office-classic-przymykowe.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/milled-patterns",
+      "handler": "milled-patterns.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/milled-patterns/count",
+      "handler": "milled-patterns.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/milled-patterns/:id",
+      "handler": "milled-patterns.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/milled-patterns",
+      "handler": "milled-patterns.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/milled-patterns/:id",
+      "handler": "milled-patterns.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/milled-patterns/:id",
+      "handler": "milled-patterns.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/rodzaje-szklas",
+      "handler": "rodzaje-szkla.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/rodzaje-szklas/count",
+      "handler": "rodzaje-szkla.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/rodzaje-szklas/:id",
+      "handler": "rodzaje-szkla.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/rodzaje-szklas",
+      "handler": "rodzaje-szkla.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/rodzaje-szklas/:id",
+      "handler": "rodzaje-szkla.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/rodzaje-szklas/:id",
+      "handler": "rodzaje-szkla.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

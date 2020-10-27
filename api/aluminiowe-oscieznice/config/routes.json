@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/aluminiowe-oscieznices",
+      "handler": "aluminiowe-oscieznice.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/aluminiowe-oscieznices/count",
+      "handler": "aluminiowe-oscieznice.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/aluminiowe-oscieznices/:id",
+      "handler": "aluminiowe-oscieznice.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/aluminiowe-oscieznices",
+      "handler": "aluminiowe-oscieznice.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/aluminiowe-oscieznices/:id",
+      "handler": "aluminiowe-oscieznice.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/aluminiowe-oscieznices/:id",
+      "handler": "aluminiowe-oscieznice.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
