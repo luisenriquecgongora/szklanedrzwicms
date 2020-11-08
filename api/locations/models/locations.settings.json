@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "locations",
+  "info": {
+    "name": "locations"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "region": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "string"
+    },
+    "Telephone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "x": {
+      "type": "decimal"
+    },
+    "y": {
+      "type": "decimal"
+    },
+    "AddressA": {
+      "type": "text"
+    },
+    "AddressB": {
+      "type": "text"
+    },
+    "AlternativeAddressA": {
+      "type": "text"
+    },
+    "AlternativeAddressB": {
+      "type": "text"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
